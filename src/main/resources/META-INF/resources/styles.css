@@ -1,1 +1,22 @@
 /* Add your styles here */
+
+/* Navigationsleiste oben (MainLayout) */
+.main-nav {
+  padding: 0 1rem;
+  gap: 1.5rem;
+}
+
+.main-nav .app-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+/* Vaadin setzt "highlight" auf den Link der aktuell geöffneten Seite */
+.main-nav a[highlight] {
+  font-weight: 700;
+  text-decoration: underline;
+}

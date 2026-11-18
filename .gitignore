@@ -12,3 +12,10 @@
 node_modules/
 src/main/frontend/generated/
 vite.generated.ts
+
+# Python-Umgebung der MT5-Bridge
+mt5-bridge/.venv/
+__pycache__/
+
+# Temporäre Sperrdatei von Vaadin
+.vaadin-node-tasks.lock
